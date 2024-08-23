@@ -48,7 +48,9 @@
     "https://gitlab.com/tvkj/qxitv/-/raw/main/888.txt"
   ],
   "otype": 7,
-  "sendfile_list": ["D:/app/iptv-checker/iptv-m3u-source/iptv.txt", "", ""],
+    "sendfile_list":["/share/iptv/alltv.txt",
+                      "",
+                      "/share/iptv/tv/iptv.txt"]
   "delay_threshold": 3000,
   "max_check_count": 30000
 }
