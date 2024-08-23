@@ -1,7 +1,7 @@
 {
-    "testspeed":1,
-    "ctype":19,
-    "checkfile_list":[
+  "testspeed": 0,
+  "ctype": 19,
+  "checkfile_list": [
     "https://cdn.jsdelivr.net/gh/joevess/IPTV@main/sources/iptv_sources.m3u8",
     "https://cdn.jsdelivr.net/gh/joevess/IPTV@main/sources/home_sources.m3u8",
     "https://cdn.jsdelivr.net/gh/joevess/IPTV@main/iptv.m3u8",
@@ -47,9 +47,8 @@
     "https://raw.githubusercontent.com/Love4vn/love4vn/main/Sport.m3u",
     "https://gitlab.com/tvkj/qxitv/-/raw/main/888.txt"
   ],
-    "otype":7,
-    "keywords":["赣州"],
-    "sendfile_list":["/share/iptv/alltv.txt",
-                      "",
-                      "/share/iptv/tv/iptv.txt"]
+  "otype": 7,
+  "sendfile_list": ["D:/app/iptv-checker/iptv-m3u-source/iptv.txt", "", ""],
+  "delay_threshold": 3000,
+  "max_check_count": 30000
 }
